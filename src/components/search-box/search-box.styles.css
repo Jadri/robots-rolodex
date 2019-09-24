@@ -1,0 +1,8 @@
+input.search {
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.search:focus {
+    transform: scale(1.05);
+}

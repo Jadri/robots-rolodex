@@ -1,0 +1,9 @@
+.card {
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    background-color: #e2f2f3 !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
